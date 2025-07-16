@@ -1,0 +1,30 @@
+# Conversion to YAML from Properties formar report
+# Warnings:
+# - The yaml file had comments which are lost in the refactoring!
+spring:
+  application:
+    name: BootProj05-ConfigurationPropertiesAnnotation
+per:
+  info:
+    pid: 101
+    pname: raja
+    favColors: [blue,red,orange,green]
+    studies:
+    - 10+2-ZPHS
+    - B.Tech-CSE
+    - M.Tech-IT
+    phoneNumbers:
+    - 9999999999
+    - 8888888888
+    - 7777777777
+    phone-Numbers:
+    - 7777777777
+    idDetails:
+      aadharNo: 601288787550
+      panNo: NJXPS8382E
+    id-Details:
+      voterId: 549363035349
+    jobInfo:
+      desg: CLERK
+      companyName: HCL
+      deptNo: 66788
